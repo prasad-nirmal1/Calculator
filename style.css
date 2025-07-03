@@ -29,12 +29,13 @@ body {
 .buttons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
 }
 
 button {
   padding: 20px;
   font-size: 1.2rem;
-  border: 1px solid #ddd;
+  border: none;
   background: #f9f9f9;
   cursor: pointer;
   transition: background 0.2s;
